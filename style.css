@@ -1,0 +1,75 @@
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  gap: 15px;
+}
+
+.red {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border: 4px solid black;
+  border-radius: 20px;
+}
+.green {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(42, 222, 150);
+  border: 4px solid black;
+  border-radius: 20px;
+}
+.orange {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(235, 118, 16);
+  border: 4px solid black;
+  border-radius: 20px;
+}
+.blue {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(121, 58, 198);
+  border: 4px solid black;
+  border-radius: 20px;
+}
+
+.blink {
+  background-color: white;
+}
+
+.out {
+  background-color: rgba(239, 30, 37, 0.797);
+}
+body {
+  background-color: rgba(97, 205, 20, 0.388);
+}
+
+.highscore {
+  height: 50px;
+  width: 100px;
+  background-color: aqua;
+  border: 2px dashed black;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  text-align: center;
+  font-weight: 1000;
+  line-height: 23px;
+}
